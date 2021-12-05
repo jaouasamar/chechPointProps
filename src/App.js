@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import onsjabeur from './onsjabeur.jpg';
 import './App.css';
+import Profile from './profile/Profile';
+import Avatar from '@mui/material/Avatar';
+import AccountMenu from './Menu'
 
 function App() {
+  const alertMyInput = name => alert(name);
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AccountMenu/>
+      <Profile fullName="Ons Jabeur" bio= "is a Tunisian professional tennis player who has
+       a career-high WTA ranking of No. 16, achieved on 27 September 2021. In 2021, she created history 
+       by becoming the 
+      first Arab woman to win a WTA tour title. She has a WTA Tour-high 44 match victories this season."
+      profession="professional tennis player" alertMyInput={alertMyInput}/>
+
+      <Avatar src= {onsjabeur} alt="Person's image" style={{margin:"auto", width: 56, height: 56}}/>
+       
     </div>
   );
 }
