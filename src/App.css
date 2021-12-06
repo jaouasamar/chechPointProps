@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  /* background-image:url(https://th.bing.com/th/id/R.bd6d86e382e3d48cde39c4835a6584e1?rik=%2fLbDYRdFjxrs%2fQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1429261%2fimages%2fo-ONS-JABEUR-facebook.jpg&ehk=vZISyELhHmjppAlu473S8u%2fsh%2fv6Xtt%2f9vf6%2bEtO32M%3d&risl=&pid=ImgRaw&r=0) ;*/
+ background-color: #61dafb;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 800px;
+
 }
 
 .App-logo {
